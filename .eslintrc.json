@@ -8,5 +8,10 @@
         "groups": [[".*"]] // Match all imports
       }
     ]
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["cva", "cn"]
+    }
   }
 }
